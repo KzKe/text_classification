@@ -25,9 +25,14 @@ from sklearn.feature_selection import RFECV
 from sklearn.model_selection import GridSearchCV, StratifiedKFold
 from tqdm import tqdm
 
-import
+from skopt import BayesSearchCV
+from bayes_opt import BayesianOptimization
 
 from src.uitls import config
+
+tqdm.pandas()
+
+
 
 
 
